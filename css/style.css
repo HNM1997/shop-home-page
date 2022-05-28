@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1280px;
+  margin: auto auto;
+}
+
+/*header*/
+.header-title{
+  background-color: #1565c0;
+  color: #ffffff;
+  padding: 10px 0;
+}
+.header-title .container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-title .login a{
+  color: #ffffff;
+  margin-left: 20px;
+  align-items: center;
+}
+.header-main{
+  background-color: #0d59af;
+  color: #ffffff;
+  padding: 10px 0;
+}
+.header-main .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-main .menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-main .menu h1{
+  margin-right: 40px;
+}
+.header-main .menu .navbar a{
+  color: #ffffff;
+  margin-left: 20px;
+}
+.header-main .cart p{
+  text-align: right;
+}
+/*carousel*/
+.carousel {
+  height: 500px;
+  background-image: url(../img/b1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*portfolio*/
+.portfolio {
+  padding: 20px 0;
+}
+.portfolio .list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.portfolio .list .item .content img {
+  width: 100%;
+}
+.portfolio .list .item {
+  padding: 10px;
+}
+.portfolio .list .item-1 {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+.portfolio .list .item-2 {
+  grid-column: 3 / span 4;
+}
+
+/*header*/
+header .title {
+  background-color: #1565c0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+header .main {
+  background-color: #0d59af;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*products*/
+.products {
+  background-color: #ffffff;
+  padding: 20px 0;
+}
+.products header {
+  color: #1c6ac2;
+  text-align: center;
+}
+.products main .list {
+  display: flex;
+}
+.products main .list .item {
+  width: 25%;
+  padding: 10px;
+}
+.products main .list .item .content {
+  text-align: center;
+  border: 1px solid #000000;
+}
+.products main .list .item .content img {
+  width: 100%;
+}
+.products main .list .item .content h1 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #1c6ac2;
+  margin: 10px 0;
+}
+.products main .list .item .content .size {
+  font-weight: 700;
+  margin: 10px 0;
+}
+.products main .list .item .content .price {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.products main .list .item .content .price span {
+  text-decoration: line-through;
+  color: #808287;
+}
+.products main .list .item .content .button {
+  padding: 20px 0;
+}
+.products main .list .item .content .button a {
+  color: #1c6ac2;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: 3px solid #f1a228;
+}
+
+/*contact*/
+.contact {
+  background-image: url(../img/ban1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #ffffff;
+  height: 500px;
+  position: relative;
+}
+.contact p {
+  padding-top: 150px;
+  font-size: 30px;
+}
+.contact h1 {
+  font-size: 60px;
+  margin: 50px 0;
+}
+.contact .button a {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0 5px;
+  background-color: #f1a228;
+  padding: 10px 15px;
+}
+.contact hr {
+  position: absolute;
+  top: 260px;
+  font-weight: 900;
+  width: 100%;
+  opacity: 0.7;
+}
+
+/*arrivals*/
+.arrivals {
+  background-color: #ffffff;
+  padding: 20px;
+}
+.arrivals header {
+  color: #1c6ac2;
+  text-align: center;
+}
+.arrivals main .list {
+  display: flex;
+}
+.arrivals main .list .item {
+  width: 25%;
+  padding: 10px;
+}
+.arrivals main .list .item .content {
+  text-align: center;
+  border: 1px solid #000000;
+}
+.arrivals main .list .item .content img {
+  width: 100%;
+}
+.arrivals main .list .item .content h1 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #1c6ac2;
+  margin: 10px 0;
+}
+.arrivals main .list .item .content .size {
+  font-weight: 700;
+  margin: 10px 0;
+}
+.arrivals main .list .item .content .price {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.arrivals main .list .item .content .price span {
+  text-decoration: line-through;
+  color: #808287;
+}
+.arrivals main .list .item .content .button {
+  padding: 20px 0;
+}
+.arrivals main .list .item .content .button a {
+  color: #1c6ac2;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: 3px solid #f1a228;
+}
+/*sales*/
+.sales {
+  background-color: #f9f8f8;
+  padding: 20px 0;
+}
+.sales header h1 {
+  color: #1c6ac2;
+  text-align: center;
+  margin: 20px 0;
+}
+.sales main .list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sales main .list .item {
+  width: calc(100% / 3);
+  padding: 10px;
+}
+.sales main .list .item .content {
+  position: relative;
+}
+.sales main .list .item .content img {
+  width: 100%;
+  display: block;
+}
+.sales main .list .item .content .gender {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #1c69c293;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 10px 0;
+}
+.sales main .list .item .content .discount {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: #1c6ac2;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+}
+
+/*footer-contact*/
+.footer-contact {
+  background-color: #1565c0;
+  color: #ffffff;
+  padding: 20px 0;
+}
+.footer-contact .list {
+  display: flex;
+}
+.footer-contact .list .item {
+  width: 25%;
+}
+.footer-contact .list .item .content {
+  padding-right: 10px;
+}
+.footer-contact .list .item .content h1 {
+  font-size: 25px;
+  margin: 20px 0;
+}
+.footer-contact .list .item .content p {
+  padding: 8px 0;
+}
+
+/*footer*/
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px 0;
+}
+footer .list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+@media screen and (max-width:576px) {
+  
+}
